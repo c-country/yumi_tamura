@@ -40,3 +40,44 @@ dd {
 
 
 /* ------------------------------ your css ↓↓ */
+
+body{
+    text-align: center;
+
+}
+
+h1{
+    font-family: Pacifico, cursive;
+}
+
+header p{
+    font-style: italic;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+dt {
+    font-size: 12px;
+    columns: #999999;
+    font-weight: bold;
+
+}
+
+dd a{
+    font-size: 14px;
+    color: #ee2022;
+    text-decoration: none;
+}
+
+
+
+
+
+
