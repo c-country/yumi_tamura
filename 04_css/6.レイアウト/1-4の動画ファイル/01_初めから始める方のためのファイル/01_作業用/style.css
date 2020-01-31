@@ -103,3 +103,42 @@ footer {
 
 
 /* ------------------------------ your css ↓↓ */
+
+header{
+	width: 900px;
+	height: auto;
+	background-color: red;
+}
+
+div#main_img{
+	width: 900px;
+	height: 321px;
+}
+
+div#container{
+	width: 900px;
+	height: auto;
+	background-color: yellow;
+}
+
+div#left_side{
+	width: 200px;
+	height: auto;
+	background-color: pink;
+}
+
+div#right_side{
+	width: 660px;
+	height: auto;
+	background-color: green;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: gray;
+}
+
+div#wrapper{
+	margin:0 auto;
+	width: 900px;
+}
