@@ -21,16 +21,49 @@ body {
   visibility: hidden;
 }
 
+header {
+  background-color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
 
+footer {
+  background-color: #ddd;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+}
 
 
 /* ------------------------------ your css ↓↓ */
 
+div#wrapper{
+  margin: 0 auto;
+  width: 870px;
+}
 
+div#right{
+  width: 300px;
+  height: 600px;
+  background-color: gray;
+  float: left;
+}
 
+div#left{
+  width: 570px;
+  height: 600px;
+  background-color: #cccccc;
+  float: left;
+}
 
-
-
+footer{
+  clear: both;
+}
 
 
 
