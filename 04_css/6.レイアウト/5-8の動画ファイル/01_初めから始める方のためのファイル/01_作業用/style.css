@@ -136,3 +136,39 @@ footer {
 
 
 /* ------------------------------ your css ↓↓ */
+
+article{
+    position: relative;
+}
+
+p.ribbon{
+    position: absolute;
+    top: 19px;
+    right: 30px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+div#wrapper{
+    margin-top: 120px;
+}
+
+div#news_box{
+    overflow: scroll;
+}
+
+figure{
+    overflow: hidden;
+    width: 500px;
+    height: 200px;
+}
+
+
+
+
+
+
