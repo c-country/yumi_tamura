@@ -196,13 +196,40 @@ header{
 
 header h1{
     font-size: 12px;
+    color: #555555;
+    /* font-family: "メイリオ",-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    background: url(/02_zissen_ps/04~07.【中級者向け】美容院のWebサイト制作～トップページ編～/01_作業用/imgages/logo.png) no-repeat;
+    padding-left: 51px;
+    line-height: 1;
+    height: 49px;
 }
 
 header h1 span{
     font-size: 33px;
     color: #734339;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
 }
 
+header nav ul li:hover{
+    background: url(/02_zissen_ps/04~07.【中級者向け】美容院のWebサイト制作～トップページ編～/01_作業用/imgages/navbar.png) no-repeat center bottom;
+    height: 36px;
+}
+
+header nav ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #734339;
+    text-decoration: none;
+    height: 26px;
+    display: :inline-block;
+}
+
+header nav ul li a:hover{
+    color: #345c39;
+    border-bottom: 4px solid #345c39;
+}
 /* ========================================
     メイン画像用
 ========================================= */
